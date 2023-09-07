@@ -1,10 +1,15 @@
 package com.bootcoding.project.model;
 
+import java.util.Date;
+
 public class Order {
     int id;
     String deliveryAddress;
+
     Date orderDate;
     double amount;
+
+
     String restaurantname;
     long contact;
     String customorName;
